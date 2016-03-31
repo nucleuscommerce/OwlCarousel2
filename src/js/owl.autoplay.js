@@ -1,12 +1,3 @@
-/**
- * Autoplay Plugin
- * @version 2.0.0-beta.3
- * @author Bartosz Wojciechowski
- * @author Artus Kolanowski
- * @license The MIT License (MIT)
- */
-;(function($, window, document, undefined) {
-
 	/**
 	 * Creates the autoplay plugin.
 	 * @class The Autoplay Plugin
@@ -184,5 +175,3 @@
 	};
 
 	$.fn.owlCarousel.Constructor.Plugins.autoplay = Autoplay;
-
-})(window.Zepto || window.jQuery, window, document);

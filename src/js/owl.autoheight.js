@@ -1,11 +1,3 @@
-/**
- * AutoHeight Plugin
- * @version 2.0.0-beta.3
- * @author Bartosz Wojciechowski
- * @license The MIT License (MIT)
- */
-;(function($, window, document, undefined) {
-
 	/**
 	 * Creates the auto height plugin.
 	 * @class The Auto Height Plugin
@@ -92,5 +84,3 @@
 	};
 
 	$.fn.owlCarousel.Constructor.Plugins.AutoHeight = AutoHeight;
-
-})(window.Zepto || window.jQuery, window, document);

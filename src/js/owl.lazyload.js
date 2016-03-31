@@ -1,11 +1,3 @@
-/**
- * Lazy Plugin
- * @version 2.0.0-beta.3
- * @author Bartosz Wojciechowski
- * @license The MIT License (MIT)
- */
-;(function($, window, document, undefined) {
-
 	/**
 	 * Creates the lazy plugin.
 	 * @class The Lazy Plugin
@@ -130,5 +122,3 @@
 	};
 
 	$.fn.owlCarousel.Constructor.Plugins.Lazy = Lazy;
-
-})(window.Zepto || window.jQuery, window, document);
