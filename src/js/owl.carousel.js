@@ -1,16 +1,3 @@
-/**
- * Owl carousel
- * @version 2.0.0-beta.3
- * @author Bartosz Wojciechowski
- * @license The MIT License (MIT)
- * @todo Lazy Load Icon
- * @todo prevent animationend bubling
- * @todo itemsScaleUp
- * @todo Test Zepto
- * @todo stagePadding calculate wrong active classes
- */
-;(function($, window, document, undefined) {
-
 	/**
 	 * Creates a carousel.
 	 * @class The Owl Carousel.
@@ -1265,7 +1252,7 @@
 		this._items = [];
 
 		if (content) {
-			content = (content instanceof jQuery) ? content : $(content);
+			content = (content instanceof $) ? content : $(content);
 		}
 
 		if (this.settings.nestedItemSelector) {
@@ -1297,7 +1284,7 @@
 		var current = this.relative(this._current);
 
 		position = position === undefined ? this._items.length : this.normalize(position, true);
-		content = content instanceof jQuery ? content : $(content);
+		content = content instanceof $ ? content : $(content);
 
 		this.trigger('add', { content: content, position: position });
 
@@ -1667,5 +1654,3 @@
 	 * @public
 	 */
 	$.fn.owlCarousel.Constructor = Owl;
-
-})(window.Zepto || window.jQuery, window, document);

@@ -1,13 +1,3 @@
-/**
- * Support Plugin
- *
- * @version 2.0.0-beta.3
- * @author Vivid Planet Software GmbH
- * @author Artus Kolanowski
- * @license The MIT License (MIT)
- */
-;(function($, window, document, undefined) {
-
 	var style = $('<support>').get(0).style,
 		prefixes = 'Webkit Moz O ms'.split(' '),
 		events = {
@@ -78,5 +68,3 @@
 		$.support.transform = new String(prefixed('transform'));
 		$.support.transform3d = tests.csstransforms3d();
 	}
-
-})(window.Zepto || window.jQuery, window, document);

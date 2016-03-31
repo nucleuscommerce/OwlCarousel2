@@ -1,11 +1,3 @@
-/**
- * Animate Plugin
- * @version 2.0.0-beta.3
- * @author Bartosz Wojciechowski
- * @license The MIT License (MIT)
- */
-;(function($, window, document, undefined) {
-
 	/**
 	 * Creates the animate plugin.
 	 * @class The Navigation Plugin
@@ -116,5 +108,3 @@
 	};
 
 	$.fn.owlCarousel.Constructor.Plugins.Animate = Animate;
-
-})(window.Zepto || window.jQuery, window, document);
