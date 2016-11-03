@@ -1,13 +1,3 @@
-/**
- * Modernizr Support Plugin
- *
- * @version 2.1.0
- * @author Vivid Planet Software GmbH
- * @author Artus Kolanowski
- * @author David Deutsch
- * @license The MIT License (MIT)
- */
-;(function($, Modernizr, window, document, undefined) {
 
 	var events = {
 		transition: {
@@ -63,4 +53,3 @@
 		$.support.transform = new String(Modernizr.prefixed('transform'));
 		$.support.transform3d = Modernizr.csstransforms3d;
 	}
-})(window.Zepto || window.jQuery, window.Modernizr, window, document);

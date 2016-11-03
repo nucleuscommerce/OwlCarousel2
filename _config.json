@@ -11,6 +11,7 @@
 		"dist":		"dist",
 
 		"scripts": [
+			"src/js/owl.umdheader.js",
 			"src/js/owl.carousel.js",
 			"src/js/owl.autorefresh.js",
 			"src/js/owl.lazyload.js",
@@ -20,7 +21,8 @@
 			"src/js/owl.autoplay.js",
 			"src/js/owl.navigation.js",
 			"src/js/owl.hash.js",
-			"src/js/owl.support.js"
+			"src/js/owl.support.js",
+			"src/js/owl.umdfooter.js"
 		]
 	},
 

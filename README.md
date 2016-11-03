@@ -1,3 +1,12 @@
+This repo was forked because the project is not being actively supported by it's owner.
+
+To compile the source files, [install node.js](https://nodejs.org/en/) then run the following commands
+
+```bash
+sudo npm install
+sudo grunt dist
+```
+
 # OwlCarousel2 is currently being transferred to a new owner
 
 Stay tuned while the new owner sorts through some stuff. (Oh, hi, I'm [David](https://github.com/daviddeutsch)!)
